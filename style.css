@@ -7,12 +7,17 @@ h1{
     font-size: 50px; 
 }
 
+h2{
+    font-size: 40px;
+}
+
 p{
     color: #696969; 
 }
 
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width{
@@ -39,4 +44,10 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat; 
+    background-position: right;
 }
